@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="../js/jquery-3.5.1.js"></script>
+    <script src="../js/doT.min.js"></script>
+    <script src="../js/guid.js"></script>
+    <link rel="stylesheet" href="../css/public.css">
+    <link rel="stylesheet" href="../css/foottop.css">
+    <link rel="stylesheet" href="../css/guid.css">
+</head>
+<body>
+    <!-- 页面顶部 -->
+    <div class="top warp clear">
+        <div class="logo"><img src="../img/img/logonew.png" alt=""></div>
+        <ul class="topNav clear">
+            <li><a href=""> 首页 </a></li>
+            <li><a href=""> 酷玩 </a></li>
+            <li><a href=""> 导购 </a></li>
+            <li><a href=""> 试用 </a></li>
+            <li><a href=""> 报告 </a></li>
+        </ul>
+        <div class="topSearch">
+            <div ><img src="../img/css/img/search.png" alt=""></div>
+            <div class="bord">注册</div>
+        </div>
+    </div>
+<!-- 主体 -->
+<div class="tabcut">
+    <h1>导购清单</h1>
+    <ul class="clear" id="kuwan_cut">
+        <li class="act111">最新</li>
+        <li>最热</li>
+    </ul>
+</div>
+<div class="dingwei">
+    <!-- 最新 -->
+    <div class="ZCindex" style = 'display: block;'>
+        <ul id="list" class="clear ul_">
+        </ul>
+        <script id="list_tem" type="text/x-dot-template">
+            {{~it:value:index}}
+                
+                <li>
+                    <img src={{=value.img}} alt="" onclick=cc()>
+                    <div class="xuanran">
+                        <p>{{=value.text}}</p>
+                        <p>
+                            <span>{{=value.like}}</span>
+                            <span>{{=value.words}}</span>
+                        </p>
+                    </div>
+                </li>
+                
+            {{~ }}
+        </script>
+    </div>
+    <!-- 最新结束 -->
+    <!-- 最热 -->
+    <div class="ZCindex">
+        <ul id="list2" class="clear ul_">
+        </ul>
+        <script id="list_tem2" type="text/x-dot-template">
+            {{~it:value:index}}
+                    <li>
+                        <img src={{=value.img}} alt="" onclick=cc()>
+                        <div class="xuanran">
+                            <p>{{=value.text}}</p>
+                            <p>
+                                <span>{{=value.like}}</span>
+                                <span>{{=value.words}}</span>
+                            </p>
+                        </div>
+                    </li>
+            {{~ }}
+        </script>
+        <ul id="list3" class="clear ul_">
+        </ul>
+        <script id="list_tem3" type="text/x-dot-template">
+            {{~it:value:index}}
+                    <li>
+                        <img src={{=value.img}} alt="" onclick=cc()>
+                        <div class="xuanran">
+                            <p>{{=value.text}}</p>
+                            <p>
+                                <span>{{=value.like}}</span>
+                                <span>{{=value.words}}</span>
+                            </p>
+                        </div>
+                    </li>
+            {{~ }}
+        </script>
+    </div>
+    <div class="addche">加载更多</div>
+    <!-- 最热结束 -->
+    <!-- 页面尾部 -->
+    <div class="foot clear">
+        <div class="logoFoot"><img src="../img/img/code.png" alt=""></div>
+        <div class="logojiguo">
+            <img src="../img/img/logoImg.jpg" alt="">
+            <p>全球酷玩试用导购平台酷·新奇·好玩·品质</p>
+            <p>微信添加“JguoJguo”获取我们的服务。</p>
+        </div>
+        <ul>
+            <li>免费试用</li>
+            <li>试用流程</li>
+            <li>如何提高成功率</li>
+        </ul>
+        <ul>
+            <li>友情链接</li>
+            <li>智东西     WEIBUSI</li>
+            <li>搜狐IT     腾讯科技</li>
+            <li>搜狐数码   凤凰科技</li>
+            <li>泡泡网     3W咖啡</li>
+            <li>ZUK社区    亿觅emie</li>
+            <li>极客公园   易迅易启玩</li>
+            <li>果库</li>
+        </ul>
+        <ul>
+            <li>购买攻略</li>
+            <li>美亚海淘教程</li>
+            <li>日亚海淘教程</li>
+            <li>海淘转运攻略</li>
+            <li>kickstarter 众筹购买攻略</li>
+            <li>indiegogo 众筹购买攻略</li>
+        </ul>
+        <ul>
+            <li>厂商合作</li>
+            <li>关于极果</li>
+            <li>联系我们</li>
+            <li>商务合作：BD@jiguo.com</li>
+            <li>CEO邮箱：CEO@jiguo.com</li>
+        </ul>
+         <p class="footP">&copy 2016 极果版权所有</p>
+    </div>
+</body>
+</html>

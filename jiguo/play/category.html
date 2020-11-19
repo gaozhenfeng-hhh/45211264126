@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>酷玩</title>
+    <script src="../js/doT.min.js"></script>
+    <script src="../js/jquery-3.5.1.js"></script>
+    <script src="../js/category.js"></script>
+    <link rel="stylesheet" href="../css/public.css">
+    <link rel="stylesheet" href="../css/foottop.css">
+    <link rel="stylesheet" href="../css/category.css">
+    <script src=""></script>
+</head>
+<body>
+    <!-- 页面顶部 -->
+    <div class="top warp clear">
+        <div class="logo"><img src="../img/img/logonew.png" alt=""></div>
+        <ul class="topNav clear">
+            <li>首页</li>
+            <li>酷玩</li>
+            <li>导购</li>
+            <li>试用</li>
+            <li>报告</li>
+        </ul>
+        <div class="topSearch">
+            <div ><img src="../img/css/img/search.png" alt=""></div>
+            <div class="bord">注册</div>
+        </div>
+    </div>
+
+
+<!-- 主体 -->
+<div class="tabcut">
+    <h1>发现酷玩</h1>
+    <ul class="clear" id="kuwan_cut">
+        <li class="act111">最新</li>
+        <li>最热</li>
+        <li>品类</li>
+    </ul>
+</div>
+<div class="dingwei">
+    <!-- 最新 -->
+    <div class="ZCindex" style = 'display: block;'>
+        <ul id="list" class="clear ul_">
+        </ul>
+        <script id="list_tem" type="text/x-dot-template">
+            {{~it:value:index}}
+                {{~value:value1:index1}}
+                    <li>
+                        <img src={{=value1.img}} alt="">
+                        <div class="xuanran">
+                            <p>{{=value1.text}}</p>
+                            <p>
+                                <span>{{=value1.price}}</span>
+                                <span>{{=value1.like}}</span>
+                                <span>{{=value1.words}}</span>
+                            </p>
+                        </div>
+                    </li>
+                {{~ }}
+            {{~ }}
+        </script>
+    </div>
+    <!-- 最新结束 -->
+    <!-- 最热 -->
+    <div class="ZCindex">
+        <ul id="list2" class="clear ul_">
+        </ul>
+        <script id="list_tem2" type="text/x-dot-template">
+            {{~it:value:index}}
+                {{~value:value1:index1}}
+                    <li>
+                        <img src={{=value1.img}} alt="">
+                        <div class="xuanran">
+                            <p>{{=value1.text}}</p>
+                            <p>
+                                <span>{{=value1.price}}</span>
+                                <span>{{=value1.like}}</span>
+                                <span>{{=value1.words}}</span>
+                            </p>
+                        </div>
+                    </li>
+                {{~ }}
+            {{~ }}
+        </script>
+    </div>
+    <!-- 最热结束 -->
+    <!-- main -->
+    <div class="ZCindex bg" >
+        <div class="main">
+            <!-- 生活 -->
+            <div class="shenghuo">
+                <div class="sh1">生活</div>
+                <div class="sh2">
+                    <ul class="clear">
+                        <li>
+                            <img src="../img/img/cat_1.png" alt="">
+                            <p>空气净化器（21）</p>
+                        </li>
+                        <li>
+                            <img src="../img/img/cat_2.png" alt="">
+                            <p>吸尘器（21）</p>
+                        </li>
+                        <li>
+                            <img src="../img/img/cat_3.png" alt="">
+                            <p>扫地机器人（21）</p>
+                        </li>
+                        <li>
+                            <img src="../img/img/cat_4.png" alt="">
+                            <p>电风扇（21）</p>
+                        </li>
+                        <li>
+                            <img src="../img/img/cat_5.png" alt="">
+                            <p>净水壶（21）</p>
+                        </li>
+                        <li>
+                            <img src="../img/img/cat_6.png" alt="">
+                            <p>电饭煲（21）</p>
+                        </li>
+                        <li>
+                            <img src="../img/img/cat_7.png" alt="">
+                            <p>咖啡机（21）</p>
+                        </li>
+                        <li>
+                            <img src="../img/img/cat_8.png" alt="">
+                            <p>原汁机（21）</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="sh3">
+                    <ul class="clear">
+                        <li>电视（21）</li>
+                        <li>空调（21）</li>
+                        <li>洗衣机（21）</li>
+                        <li>加湿器（21）</li>
+                        <li>净水壶（21）</li>
+                        <li>热水器（21）</li>
+                        <li>咖啡机（21）</li>
+                        <li>消毒/洗碗机（21）</li>
+                        <li>豆浆机（21）</li>
+                        <li>扫地机器人（21）</li>
+                        <li>电风扇（21）</li>
+                        <li>除湿机（21）</li>
+                        <li>干燥机（21）</li>
+                        <li>取暖机（21）</li>
+                        <li>原汁机（21）</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- 个人护理 -->
+            <div class="shenghuo">
+                <div class="sh1">个人护理</div>
+                <div class="sh2">
+                    <ul class="clear">
+                        <li>
+                            <img src="../img/img/cat_9.png" alt="">
+                            <p>电动牙刷（21）</p>
+                        </li>
+                        <li>
+                            <img src="../img/img/cat_10.png" alt="">
+                            <p>剃须刀（21）</p>
+                        </li>
+                        <li>
+                            <img src="../img/img/cat_11.png" alt="">
+                            <p>按摩器（21）</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="sh3">
+                    <ul class="clear">
+                        <li>冲牙器（21）</li>
+                        <li>洁面仪（21）</li>
+                        <li>蒸面器（21）</li>
+                        <li>加湿器（21）</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- 健康 -->
+            <div class="shenghuo">
+                <div class="sh1">健康</div>
+                <div class="sh2">
+                    <ul class="clear">
+                        <li>
+                            <img src="../img/img/cat_1.png" alt="">
+                            <p>电动牙刷（21）</p>
+                        </li>
+                        <li>
+                            <img src="../img/img/cat_2.png" alt="">
+                            <p>剃须刀（21）</p>
+                        </li>
+                        <li>
+                            <img src="../img/img/cat_3.png" alt="">
+                            <p>按摩器（21）</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="sh3">
+                    <ul class="clear">
+                        <li>冲牙器（21）</li>
+                        <li>洁面仪（21）</li>
+                        <li>蒸面器（21）</li>
+                        <li>加湿器（21）</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- 智能穿戴 -->
+            <div class="shenghuo">
+                <div class="sh1">智能穿戴</div>
+                <div class="sh2">
+                    <ul class="clear">
+                        <li>
+                            <img src="../img/img/cat_9.png" alt="">
+                            <p>电动牙刷（21）</p>
+                        </li>
+                        <li>
+                            <img src="../img/img/cat_4.png" alt="">
+                            <p>剃须刀（21）</p>
+                        </li>
+                        <li>
+                            <img src="../img/img/cat_5.png" alt="">
+                            <p>按摩器（21）</p>
+                        </li>
+                        <li>
+                            <img src="../img/img/cat_6.png" alt="">
+                            <p>电动牙刷（21）</p>
+                        </li>
+                        <li>
+                            <img src="../img/img/cat_7.png" alt="">
+                            <p>剃须刀（21）</p>
+                        </li>
+                        <li>
+                            <img src="../img/img/cat_8.png" alt="">
+                            <p>按摩器（21）</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="sh3">
+                    <ul class="clear">
+                        <li>冲牙器（21）</li>
+                        <li>洁面仪（21）</li>
+                        <li>蒸面器（21）</li>
+                        <li>加湿器（21）</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- 出行 -->
+            <div class="shenghuo">
+                <div class="sh1">出行</div>
+                <div class="sh2">
+                    <ul class="clear">
+                        <li>
+                            <img src="../img/img/cat_11.png" alt="">
+                            <p>电动牙刷（21）</p>
+                        </li>
+                        <li>
+                            <img src="../img/img/cat_2.png" alt="">
+                            <p>剃须刀（21）</p>
+                        </li>
+                        <li>
+                            <img src="../img/img/cat_9.png" alt="">
+                            <p>按摩器（21）</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="sh3">
+                    <ul class="clear">
+                        <li>冲牙器（21）</li>
+                        <li>洁面仪（21）</li>
+                        <li>蒸面器（21）</li>
+                        <li>加湿器（21）</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- 户外运动 -->
+            <div class="shenghuo">
+                <div class="sh1">户外运动</div>
+                <div class="sh2">
+                    <ul class="clear">
+                        <li>
+                            <img src="../img/img/cat_10.png" alt="">
+                            <p>电动牙刷（21）</p>
+                        </li>
+                        <li>
+                            <img src="../img/img/cat_8.png" alt="">
+                            <p>剃须刀（21）</p>
+                        </li>
+                        <li>
+                            <img src="../img/img/cat_5.png" alt="">
+                            <p>按摩器（21）</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="sh3">
+                    <ul class="clear">
+                        <li>冲牙器（21）</li>
+                        <li>洁面仪（21）</li>
+                        <li>蒸面器（21）</li>
+                        <li>加湿器（21）</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- 摄影 -->
+            <div class="shenghuo">
+                <div class="sh1">摄影</div>
+                <div class="sh2">
+                    <ul class="clear">
+                        <li>
+                            <img src="../img/img/cat_3.png" alt="">
+                            <p>电动牙刷（21）</p>
+                        </li>
+                        <li>
+                            <img src="../img/img/cat_2.png" alt="">
+                            <p>剃须刀（21）</p>
+                        </li>
+                        <li>
+                            <img src="../img/img/cat_9.png" alt="">
+                            <p>按摩器（21）</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="sh3">
+                    <ul class="clear">
+                        <li>冲牙器（21）</li>
+                        <li>洁面仪（21）</li>
+                        <li>蒸面器（21）</li>
+                        <li>加湿器（21）</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- 手机 -->
+            <div class="shenghuo">
+                <div class="sh1">手机</div>
+                <div class="sh2">
+                    <ul class="clear">
+                        <li>
+                            <img src="../img/img/cat_11.png" alt="">
+                            <p>电动牙刷（21）</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="sh3">
+                    <ul class="clear">
+                        <li>冲牙器（21）</li>
+                        <li>洁面仪（21）</li>
+                        <li>蒸面器（21）</li>
+                        <li>加湿器（21）</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- main结束 -->
+</div>
+
+    <!-- 页面尾部 -->
+    <div class="foot clear">
+        <div class="logoFoot"><img src="../img/img/code.png" alt=""></div>
+        <div class="logojiguo">
+            <img src="../img/img/logoImg.jpg" alt="">
+            <p>全球酷玩试用导购平台酷·新奇·好玩·品质</p>
+            <p>微信添加“JguoJguo”获取我们的服务。</p>
+        </div>
+        <ul>
+            <li>免费试用</li>
+            <li>试用流程</li>
+            <li>如何提高成功率</li>
+        </ul>
+        <ul>
+            <li>友情链接</li>
+            <li>智东西     WEIBUSI</li>
+            <li>搜狐IT     腾讯科技</li>
+            <li>搜狐数码   凤凰科技</li>
+            <li>泡泡网     3W咖啡</li>
+            <li>ZUK社区    亿觅emie</li>
+            <li>极客公园   易迅易启玩</li>
+            <li>果库</li>
+        </ul>
+        <ul>
+            <li>购买攻略</li>
+            <li>美亚海淘教程</li>
+            <li>日亚海淘教程</li>
+            <li>海淘转运攻略</li>
+            <li>kickstarter 众筹购买攻略</li>
+            <li>indiegogo 众筹购买攻略</li>
+        </ul>
+        <ul>
+            <li>厂商合作</li>
+            <li>关于极果</li>
+            <li>联系我们</li>
+            <li>商务合作：BD@jiguo.com</li>
+            <li>CEO邮箱：CEO@jiguo.com</li>
+        </ul>
+         <p class="footP">&copy 2016 极果版权所有</p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,265 @@
+.navBar {
+  width: 100%;
+  height: 300px;
+  background: url("../img/css/img/original.jpg") no-repeat -257px 0px;
+  position: relative;
+}
+.navBar div.navHot {
+  position: absolute;
+  top: 50px;
+  left: 893px;
+  color: aliceblue;
+}
+.navBar div.navHot h1 {
+  font-size: 25px;
+}
+.navBar div.navHot p {
+  font-size: 16px;
+  margin: 10px;
+}
+.navBar div.navHot p span {
+  display: inline-block;
+  padding: 0px 5px;
+  border-radius: 3px;
+  margin: 5px;
+  height: 25px;
+  line-height: 25px;
+  font-size: 16px;
+  background-color: #F7CF99;
+}
+.navBar div.navHot p:last-of-type {
+  margin-left: 55px;
+  width: 140px ;
+  background-color: #FE5341;
+  text-align: center;
+  height: 40px;
+  line-height: 40px;
+}
+div.navHot {
+  animation: info 1s ease both;
+}
+@keyframes info {
+  from {
+    opacity: 0;
+    transform: translate(200px, -200px);
+  }
+  to {
+    opacity: 1;
+    transform: translate(0px, 30px);
+  }
+}
+div.Texthot {
+  font-size: 25px;
+  height: 30px;
+  line-height: 30px;
+  font-weight: 999;
+  margin: 25px 0px;
+  font-style: 黑体;
+}
+.ZCmain {
+  width: 100%;
+  margin: 0 auto;
+}
+.ZCmain div.hotlubo {
+  position: relative;
+  width: 1000px;
+  margin: 0 auto;
+}
+.ZCmain div.hotlubo div.leftClick {
+  width: 37px;
+  height: 78px;
+  background-color: aqua;
+  background: url(../img/css/img/prev.png);
+  position: absolute;
+  top: 136px;
+  left: -60px;
+}
+.ZCmain div.hotlubo div.rightClick {
+  width: 37px;
+  height: 78px;
+  background-color: aqua;
+  background: url(../img/css/img/next.png);
+  position: absolute;
+  top: 136px;
+  right: -40px;
+}
+.ZCmain div.hotlubo div.inner {
+  width: 1000px;
+  overflow: hidden;
+}
+.ZCmain div.hotlubo div.inner div.images {
+  width: 3000px;
+}
+.ZCmain div.hotlubo div.inner div.images div {
+  position: relative;
+  margin-right: 40px;
+  float: left;
+  width: 210px;
+}
+.ZCmain div.hotlubo div.inner div.images div img {
+  width: 200px;
+  border-radius: 5px;
+}
+.ZCmain div.hotlubo div.inner div.images div div {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  border-radius: 0px 5px;
+  background-color: #F95243;
+  margin: 0px;
+  width: auto;
+  color: aliceblue;
+}
+.ZCmain div.hotlubo div.inner div.images div h1 {
+  text-align: center;
+  font-size: 15px;
+}
+.ZCmain div.hotlubo div.inner div.images div p {
+  text-align: center;
+}
+.ZCmain div.hotlubo div.inner div.images div p span {
+  display: inline-block;
+  margin: 5px;
+  border: 1px solid #F8563D;
+  border-radius: 5px;
+  color: #F8563D;
+  height: 20px;
+  width: auto;
+  padding: 0px 5px;
+  line-height: 20px;
+}
+.ZCmain div.hotlubo div.inner div.images div P:nth-child(5) span {
+  display: inline;
+  color: #F8563D;
+  border: none;
+}
+.ZCmain div.hotlubo div.inner div.images div P:nth-child(6) {
+  color: #F8563D;
+}
+.ZCmain div.hotlubo div.inner div.images div.active {
+  position: relative;
+  margin-right: 40px;
+  float: left;
+  width: 210px;
+}
+.ZCmain div.hotlubo div.inner div.images div.active div {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  border-radius: 0px 5px;
+  background-color: #f1e07a;
+  margin: 0px;
+  width: auto;
+  color: #C6C261;
+}
+.ZCmain div.hotlubo div.inner div.images div.active p {
+  text-align: center;
+}
+.ZCmain div.hotlubo div.inner div.images div.active p span {
+  display: inline-block;
+  margin: 5px;
+  border: 1px solid #7ACC68;
+  border-radius: 5px;
+  color: #7ACC68;
+  height: 20px;
+  width: auto;
+  padding: 0px 5px;
+  line-height: 20px;
+}
+.ZCmain div.hotlubo div.inner div.images div.active P:nth-child(5) span {
+  display: inline;
+  color: #7ACC68;
+  border: none;
+}
+.ZCmain div.hotlubo div.inner div.images div.active P:nth-child(6) {
+  color: #7ACC68;
+}
+.ZCmain .hotlubols {
+  width: 1000px;
+  margin: 0 auto;
+}
+.ZCmain .hotlubols .list {
+  float: left;
+}
+.ZCmain .hotlubols .list li {
+  margin-bottom: 30px;
+  float: left;
+  margin-right: 30px;
+}
+.ZCmain .hotlubols .list li img {
+  width: 220px;
+  height: 130px;
+}
+.ZCmain .hotlubols .list li .p-w {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 12px;
+  width: 195px;
+  height: 30px;
+  line-height: 14px;
+  float: left;
+  padding: 0 3px;
+}
+.ZCmain .hotlubols .list li div {
+  width: 220px;
+  height: 25px;
+  line-height: 25px;
+}
+.ZCmain .hotlubols .list li div .p-left {
+  float: left;
+  width: 50px;
+  height: 25px;
+}
+.ZCmain .hotlubols .list li div .p-right {
+  float: right;
+  height: 25px;
+  width: 68px;
+}
+.ZCmain .hotlubols .list li div .p-right span {
+  display: inline-block;
+  width: 20px;
+  height: 25px;
+  line-height: 25px;
+  text-align: center;
+  padding-left: 8px;
+  background: url(../img/css/img/reply.png) no-repeat 0 6px;
+}
+.ZCmain .hotlubols .list li div .p-right span:last-child {
+  background: url(../img/css/img/zan.png) no-repeat 0 6px;
+}
+.color1 {
+  color: #EE465D;
+}
+div.add {
+  width: 200px;
+  text-align: center;
+  margin: 40px auto;
+  font-size: 20px;
+  color: #EE465D;
+  background: url(../img/css/img/more.png) no-repeat 36px 8px;
+}
+li:hover {
+  animation: opa 1s ease both;
+}
+@keyframes opa {
+  0% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 0.3;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  75% {
+    opacity: 1;
+  }
+}
+div.add2 {
+  width: 200px;
+  text-align: center;
+  margin: 40px auto;
+  font-size: 20px;
+  color: #EE465D;
+  background: url(../img/css/img/loading-icon.gif) no-repeat 36px 8px;
+}

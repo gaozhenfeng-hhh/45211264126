@@ -1,0 +1,88 @@
+/*顶部导航*/
+div.top {
+  margin-top: 10px;
+}
+div.top div.logo {
+  float: left;
+}
+div.top div.logo img {
+  height: 74px;
+}
+div.top ul.topNav {
+  float: left;
+}
+div.top ul.topNav li {
+  float: left;
+  height: 74px;
+  line-height: 74px;
+  font-size: 22px;
+  margin: 0px 50px;
+  text-align: center;
+}
+div.top div.topSearch {
+  margin-top: 22px;
+  float: right;
+}
+div.top div.topSearch div.bord {
+  border: 1px solid #FF4B40;
+  border-radius: 5px;
+  color: #FF4B40;
+  width: 47px;
+  margin-left: 10px;
+  text-align: center;
+  height: 30px;
+  line-height: 30px;
+}
+div.top div.topSearch div {
+  float: left;
+}
+/* 尾部 */
+div.foot {
+  border: 1px solid #505050;
+  background-color: #505050;
+  height: 360px;
+}
+div.foot div {
+  float: left;
+  margin-top: 40px;
+  color: aliceblue;
+}
+div.foot div.logoFoot {
+  margin-left: 20%;
+}
+div.foot div.logoFoot img {
+  height: 160px;
+}
+div.foot div.logojiguo {
+  width: 140px;
+  margin-left: 10px;
+}
+div.foot div.logojiguo img {
+  height: 50px;
+}
+div.foot div.logojiguo p {
+  margin-top: 30px;
+  width: 130px;
+}
+div.foot ul {
+  margin-top: 40px;
+  float: left;
+  color: aliceblue;
+  margin-left: 20px;
+}
+div.foot ul li {
+  height: 15px;
+  line-height: 15px;
+}
+div.foot ul li:first-child {
+  height: 22px;
+  line-height: 22px;
+  font-size: 22px;
+  font-weight: 999;
+  margin-bottom: 20px;
+}
+div.foot p.footP {
+  text-align: center;
+  margin-top: 300px;
+  color: aliceblue;
+}

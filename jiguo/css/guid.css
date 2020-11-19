@@ -1,0 +1,77 @@
+div.tabcut h1{
+    font-size: 40px;
+    text-align: center;
+}
+div.tabcut ul{
+    width: 330px;
+    margin: 0px auto;
+}
+div.tabcut ul li{
+    float: left;
+    width: 165px;
+    height: 33;
+    font-size: 17px;
+    text-align: center;
+    margin-top: 30px;
+}
+.act111{
+    border-bottom: 4px solid #FD5238;
+}
+.ul_{
+    width: 1000px;
+    margin: 0px auto;
+    margin-top: 20px;
+}
+.ul_>li{
+    width: 220px;
+    margin-right: 20px;
+    float: left;
+    height: 245px;
+}
+.ul_>li>img{
+    width: 219px;
+    border-radius: 5px 5px 0px 0px;
+}
+.ul_>li>div.xuanran>p:nth-child(1){
+    font-size: 12px;
+    font-weight: 900;
+    line-height: 30px;
+}
+
+.ul_>li>div.xuanran>p:nth-child(2)>span:nth-child(1){
+    padding-left: 16px;
+    width: 15px;
+    float: right;
+    margin:0px 10px;
+    background: url(../img/css/img/xin.png) no-repeat 0px 1px;
+}
+.ul_>li>div.xuanran>p:nth-child(2)>span:nth-child(2){
+    padding-left: 15px;
+    width: 9px;
+    float: right;
+    margin:0px 10px;
+    background: url(../img/css/img/reply.png) no-repeat 0px 0px;
+}
+.dingwei{
+    width: 100%;
+    position: relative;
+}
+.ZCindex{
+    display: none;
+}
+div.addche{
+    width: 200px;
+    text-align: center;
+    margin: 40px auto;
+    font-size: 20px;
+    color: #EE465D;
+    background: url(../img/css/img/more.png) no-repeat 36px 8px;
+}
+div.addche1 {
+    width: 200px;
+    text-align: center;
+    margin: 40px auto;
+    font-size: 20px;
+    color: #EE465D;
+    background: url(../img/css/img/loading-icon.gif) no-repeat 36px 8px;
+  }

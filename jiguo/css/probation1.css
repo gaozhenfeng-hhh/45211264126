@@ -1,0 +1,96 @@
+div.tabcut h1{
+    font-size: 40px;
+    text-align: center;
+}
+div.tabcut ul{
+    width: 330px;
+    margin: 0px auto;
+}
+div.tabcut ul li{
+    float: left;
+    width: 165px;
+    height: 33;
+    font-size: 17px;
+    text-align: center;
+    margin-top: 30px;
+}
+div.publicDemo>ul{
+    width: 660px;
+    margin: 0px auto;
+}
+div.publicDemo>ul li{
+    float: left;
+    width: 165px;
+    height: 33;
+    font-size: 17px;
+    text-align: center;
+    margin-top: 30px;
+}
+/* 切换的类名 */
+.act111{
+    border-bottom: 4px solid #FD5238;
+}
+.act11{
+    font-weight: 900;
+}
+/* 数据模板 */
+.ul_{
+    width: 1000px;
+    margin: 0px auto;
+    margin-top: 20px;
+}
+.ul_>li{
+    width:230px;
+    margin-right: 20px;
+    float: left;
+    height: 245px;
+}
+.ul_>li>img{
+    width: 230px;
+    border-radius: 5px 5px 0px 0px;
+}
+.ul_>li>div.xuanran>p:nth-child(1){
+    font-size: 12px;
+    font-weight: 900;
+    line-height: 30px;
+}
+.ul_>li>div.xuanran>p{
+ text-align: center;
+}
+.ul_>li>div.xuanran>p:nth-child(2)>span{
+    color: #8BCD76;
+    border: 1px solid #8BCD76;
+    border-radius: 4px;
+    line-height: 30px;
+    padding: 5px;
+}
+.ul_>li>div.xuanran>p:nth-child(3){
+    text-align: center;
+    line-height: 30px;
+}
+.ul_>li>div.xuanran>p:nth-child(3)>span{
+   color: tomato;
+}
+.ul_>li>div.xuanran>p:nth-child(4){
+    text-align: center;
+    line-height: 30px;
+    color: #8BCD76;
+}
+
+.dingwei{
+    width: 100%;
+    position: relative;
+}
+.ZCindex{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,129 @@
+.main{
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 25px;
+    background-color: white;
+}
+.shenghuo{
+    width: 1000px;
+    border: 1px solid grey;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.sh1{
+    width:85px ;
+    height:25px ;
+    line-height: 25px;
+    padding-left: 10px;
+    border-left: 5px solid red;
+    font-size: 19px;
+    margin-top: 20px;
+}
+.sh2{
+    margin-top: 35px;
+    border-bottom: 1px dotted grey;
+}
+.sh2 ul li{
+    float: left;
+    width: 160px;
+}
+.sh2 img{
+    margin-left: 30px;
+    margin-top: 5px;
+}
+.sh2 p{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.sh3{
+    margin-bottom: 15px;
+}
+.sh3 ul li{
+    float: left;
+    width: 160px;
+    margin-top:15px ;
+    text-align: center;
+}
+.main img:hover{
+    transition: all 1s;
+    transform: rotate(360deg);
+}
+.bg{
+    width: 100%;
+    background-color: #f3f3f3;
+}
+
+div.tabcut h1{
+    font-size: 40px;
+    text-align: center;
+}
+div.tabcut ul{
+    width: 495px;
+    margin: 0px auto;
+}
+div.tabcut ul li{
+    float: left;
+    width: 165px;
+    height: 33;
+    font-size: 17px;
+    text-align: center;
+    margin-top: 30px;
+}
+.act111{
+    border-bottom: 4px solid #FD5238;
+}
+.ul_{
+    width: 1000px;
+    margin: 0px auto;
+    margin-top: 20px;
+}
+.ul_>li{
+    width: 220px;
+    margin-right: 20px;
+    float: left;
+    height: 245px;
+}
+.ul_>li>img{
+    width: 219px;
+    border-radius: 5px 5px 0px 0px;
+}
+.ul_>li>div.xuanran>p:nth-child(1){
+    font-size: 12px;
+    font-weight: 900;
+    line-height: 30px;
+}
+.ul_>li>div.xuanran>p:nth-child(2)>span:nth-child(1){
+    color: #F9434F;
+}
+.ul_>li>div.xuanran>p:nth-child(2)>span:nth-child(2){
+    padding-left: 16px;
+    width: 15px;
+    float: right;
+    margin:0px 10px;
+    background: url(../img/css/img/xin.png) no-repeat 0px 1px;
+}
+.ul_>li>div.xuanran>p:nth-child(2)>span:nth-child(3){
+    padding-left: 15px;
+    width: 9px;
+    float: right;
+    margin:0px 10px;
+    background: url(../img/css/img/reply.png) no-repeat 0px 0px;
+}
+.dingwei{
+    width: 100%;
+    position: relative;
+}
+.ZCindex{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
