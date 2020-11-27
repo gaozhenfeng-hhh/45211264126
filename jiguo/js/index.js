@@ -95,9 +95,41 @@ $(function(){
             list.innerHTML = dot_teme(res);
         }
     })
-
-
-
+$('.topSearch').on('click','.login000',function(){
+    console.log(1111);
+    $('.box').css('display','block');
+})
+$('.xxx').on('click',function(){
+    $('.box').css('display','none');
+})
+$('#but').click(function () {
+    //请求数据
+    var name = $('#name').val();
+    var pass = $('#password').val();
+    // var ajax = new XMLHttpRequest() || new ActiveXobjeck('Microsoft.XMLHTTP');
+    console.log(name)
+    $.ajax({
+        type: 'post',
+        url: 'http://192.168.1.64:3000/users/login',
+        data: {
+            username: name,
+            password:pass,
+        },
+        success: function (res) {
+            console.log(res);
+            if (res.status == 200) {
+                alert('登陆成功');
+                $('.box').css('display', 'none');
+            } else {
+                alert(res.msg);
+            }
+        },
+        dataType: 'json',
+    })
+})
+$('.topSearch').on('click','.regin000',function(){
+    window.open('./regist.html')
+})
 
 
 

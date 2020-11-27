@@ -1,0 +1,150 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+input {
+  background: none;
+  outline: none;
+  border: none;
+}
+button {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border-radius: 0;
+  background-color: transparent;
+  line-height: inherit;
+  width: max-content;
+  border: none;
+}
+.box {
+  position: absolute;
+  top: 100px;
+  left: 400px;
+  width: 810px;
+  height: 360px;
+  border-bottom: 2px solid red;
+  margin: 0 auto;
+  border-radius: 2%;
+  background: #ffffff;
+  z-index: 999;
+}
+.box .left {
+  float: left;
+  width: 497px;
+  height: 280px;
+  border-right: 1px solid #75797c;
+  margin-top: 20px;
+}
+.box .left img {
+  float: left;
+  margin-top: 9px;
+  margin-left: 10px;
+}
+.box .left .left-top {
+  height: 60px;
+  width: 180px;
+  line-height: 60px;
+  color: #75797c;
+  font-size: 20px;
+  margin-left: 45px;
+}
+.box #name {
+  float: left;
+  width: 300px;
+  height: 50px;
+  margin-top: -3px;
+  font-size: 16px;
+  margin-left: 15px;
+  color: #75797c;
+}
+.box #password {
+  width: 300px;
+  height: 50px;
+  float: left;
+  margin-top: -3px;
+  font-size: 16px;
+  margin-left: 15px;
+  color: #75797c;
+}
+.box #phone {
+  width: 350px;
+  height: 45px;
+  border: 1px solid #d9d9d9;
+  margin-left: 45px;
+}
+.box #pass {
+  width: 350px;
+  height: 45px;
+  border: 1px solid #d9d9d9;
+  margin-top: 10px;
+  margin-left: 45px;
+}
+.box #left-bottom {
+  width: 425px;
+  height: 45px;
+}
+.box #left-bottom > div {
+  float: left;
+  margin-top: 30px;
+  margin-left: 50px;
+  color: #75797c;
+}
+.box #left-bottom #but {
+  float: left;
+  width: 180px;
+  height: 40px;
+  background: #fe584d;
+  border-radius: 30px;
+  margin-top: 20px;
+  margin-left: 50px;
+  color: white;
+}
+.box #left-bottom .foot1 {
+  word-spacing: 200px;
+}
+.box #left-bottom .foot1 a {
+  color: #75797c;
+}
+.box .right {
+  position: relative;
+  width: 250px;
+  height: 280px;
+  margin-left: 20px;
+  float: left;
+  margin-top: 20px;
+}
+.box .right .right-top {
+  width: 250px;
+  height: 40px;
+  font-size: 17px;
+  color: #75797c;
+  text-align: center;
+  line-height: 40px;
+}
+.box .right .wx {
+  margin-left: 20px;
+}
+.box .right .right-bottom {
+  width: 250px;
+  height: 80px;
+  line-height: 80px;
+}
+.box .right .right-bottom img,
+.box .right .right-bottom a {
+  float: left;
+}
+.box .right .right-bottom a {
+  margin-right: 20px;
+}
+.box .right .right-bottom img {
+  margin-top: 20px;
+  margin-right: 20px;
+}
+.box .xxx {
+  position: absolute;
+  width: 26px;
+  height: 26px;
+  top: 0;
+  right: 0;
+}

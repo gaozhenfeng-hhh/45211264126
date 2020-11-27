@@ -24,6 +24,11 @@ $(function(){
         div_publi.hide();
         div_publi.eq($(this).index()).show()
     });
+    // console.log($('.ul_>li'))
+    $('.ul_').on("click", "li",function(){
+            // console.log('手车式');
+            window.open('./probation.html');
+    });
 })
 
 $.ajax({
@@ -62,3 +67,7 @@ function b(res2){
     var dot_teme = doT.template(document.getElementById('list_tem8').innerText);
     list8.innerHTML = dot_teme(res2);
 }
+    function windOpen(){
+        console.log('手车式');
+        window.open('./probation.html');
+    }

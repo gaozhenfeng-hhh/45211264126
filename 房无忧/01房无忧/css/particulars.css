@@ -1,0 +1,216 @@
+html,body{
+    background-color: gainsboro;
+}
+
+.swiper-container>.swiper-wrapper>.swiper-slide>img{
+    width: 100%;
+}
+.swiper-container>.swiper-wrapper>.swiper-slide{
+    font-size: 0px;
+}
+.swiper-pagination{
+    display: block;
+    text-align: right;
+    left: -10px;
+    color: white;
+}
+/* title */
+.title{
+    padding-bottom: 25rem;
+    background-color: white;
+}
+.title>h1{
+    font-size: 42.1875rem;
+    margin: 40rem 20rem;
+}
+.title>h5{
+    font-size: 28.125rem;
+    /* text-align: center; */
+    line-height: 70rem;
+}
+.title>h5>span{
+    color: red;
+}
+.title>h5>i{
+    float: right;
+    display: inline-block;
+    width: 100rem;
+    height: 80rem;
+    background: url(../image/SecondHandList/phone.png) no-repeat 1rem 2rem;
+    background-size: 40rem;
+}
+.title>p:nth-of-type(1){
+    line-height: 70rem;
+    color: grey;
+}
+.title>p:nth-of-type(2)>span{
+    line-height: 70rem;
+    background-color:#dee9f0;
+    margin: 0px 30rem;
+    padding: 10rem;
+}
+/* masg list */
+.ZCpre{
+    background-color: white;
+    margin-bottom: 20rem;
+}
+.ZCpre>li{
+    font-size: 35rem;
+    line-height: 120rem;
+    width: 90%;
+    margin: 0px auto;
+    border-bottom: 1rem solid grey;
+    display: flex;
+}
+.ZCpre>li:last-child{
+    border: none;
+    color: grey;
+    justify-content: center;
+}
+.ZCpre>li>div{
+    width: 50%;
+    font-size: 35rem;
+    line-height: 120rem;
+}
+/* particulars masg */
+.ZCpar{
+    background-color: white;
+    margin-bottom: 25rem;
+}
+.ZCpar>h1{
+    font-size: 35rem;
+    line-height: 120rem;
+    color:  #ff8a00;
+    width: 90%;
+    margin: 0px auto;
+    border-bottom: 1rem solid grey;
+}
+.ZCpar>div{
+    width: 90%;
+    margin: 0px auto;
+    line-height: 50rem;
+    text-indent:58em;
+    padding: 30rem 0;
+    /* bordekfr-bottom: 1rem solid grey; */
+}
+/* product list */
+.screen{
+    background-color: white;
+    margin-bottom: 25rem;
+}
+.items>h1{
+    font-size: 35rem;
+    line-height: 120rem;
+    color:  #ff8a00;
+    width: 90%;
+    margin: 0px auto;
+    border-bottom: 1rem solid grey;
+}
+.items>ul>li{
+    margin: 0px 46.875rem;
+    display: flex;
+    height: 335.15625rem;
+    border-bottom: 1rem solid grey;
+    box-sizing: border-box;
+    align-items: center;
+}
+.items>ul>li:last-child{
+    border: none;
+    
+}
+.items>ul>li>div:nth-child(1)>img{
+    margin: 0px ;
+    width: 189.84375rem;
+}
+.items>ul>li>div:nth-child(2){
+    margin-left: 28.125rem;
+    height: 213.28125rem;
+    line-height: 71rem;
+    width: 435.9375rem;
+}
+.items>ul>li>div:nth-child(2)>p:nth-of-type(2)>span{
+    line-height: 70rem;
+    background-color:#dee9f0;
+    margin: 0px 30rem;
+    padding: 10rem;
+}
+/* shcool */
+.school{
+   background-color: white;
+}
+.school>h1{
+    font-size: 35rem;
+    line-height: 120rem;
+    color:  #ff8a00;
+    width: 90%;
+    margin: 0px auto;
+    border-bottom: 1rem solid grey;
+}
+.ZCpre>li>span{
+    color: thistle;
+}
+/* weizhi */
+.weizhi{
+    background-color: white;
+    margin-bottom: 25rem;
+ }
+ .weizhi>h1{
+     font-size: 35rem;
+     line-height: 120rem;
+     color:  #ff8a00;
+     width: 90%;
+     margin: 0px auto;
+     border-bottom: 1rem solid grey;
+ }
+ .weizhi>div{
+     padding: 46.875rem;
+ }
+ .weizhi>div>.mapdiv{
+     width: 656.25rem;
+    background-color: grey;
+    height: 362.625rem;
+ }
+ .weizhi>div>img{
+     width: 656.25rem;
+ }
+/* 推荐房源 */
+.tuijian{
+    background-color: white;
+    margin-bottom: 25rem;
+}
+.tuijian>h1{
+    font-size: 35rem;
+    line-height: 120rem;
+    width: 90%;
+    margin: 0px auto;
+}
+.tuijian>.itembox>ul>li>div:nth-child(2){
+    margin-left: 28.125rem;
+    height: 213.28125rem;
+    line-height: 54rem;
+    width: 400rem;
+}
+.tuijian>.itembox>ul>li{
+    flex-wrap: wrap;
+    border-bottom-color: grey;
+}
+.tuijian>.itembox>ul>li>p{
+    width: 750rem;
+    color: grey;
+    background-color: #ccc;
+}
+.tuijian>.itembox>ul>li:last-child{
+    height: 95rem;
+    border: none;
+    color: grey;
+    justify-content: center;
+}
+.itembox>ul{
+    margin: 0px;
+}
+
+
+
+
+
+

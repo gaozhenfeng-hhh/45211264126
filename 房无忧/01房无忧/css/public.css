@@ -1,0 +1,57 @@
+/* 公共样式 */
+ul{
+    list-style: none;
+}
+a{
+    color:black;
+    text-decoration: none;
+}
+/* 产品列表 */
+.itembox>ul{
+    background-color: white;
+    list-style: none;
+    border: 3rem solid gray;
+    margin-bottom: 11.71875rem;
+}
+.itembox>ul>li{
+    margin: 0px 46.875rem;
+    display: flex;
+    height: 335.15625rem;
+    border-bottom: 1rem solid crimson;
+    box-sizing: border-box;
+    align-items: center;
+}
+.itembox>ul>li:last-child{
+    border: none;
+}
+.itembox>ul>li>div:nth-child(1)>img{
+    margin: 0px ;
+    width: 189.84375rem;
+}
+.itembox>ul>li>div:nth-child(2){
+    margin-left: 28.125rem;
+    height: 213.28125rem;
+    line-height: 54rem;
+    width: 435.9375rem;
+}
+.itembox>ul>li>div:nth-child(2)>h1{
+    display: block;
+    width: 435.9375rem;
+    font-size: 39.84375rem;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.itembox>ul>li>div:nth-child(2)>h5>span{
+    float: right;
+    color: #ff8a00;;
+}
+.itembox>ul>li>div:nth-child(2)>p:nth-of-type(1){
+    color: darkgray;
+}
+.itembox>ul>li>div:nth-child(2)>p:nth-of-type(1)>span{
+    float: right;
+}
+.itembox>ul>li>div:nth-child(2)>p:nth-of-type(2){
+    color: darkseagreen;
+}

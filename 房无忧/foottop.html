@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/foottop.css">
+    <script src="./js/jquery-3.5.1.js"></script>
+    <script>
+        window.onload = function () {
+            function setRem() {
+                var ui_w = 750;
+                var c_w = document.documentElement.clientWidth || document.body.clientWidth;
+                document.getElementsByTagName('html')[0].style.fontSize = (c_w / ui_w) + 'px';
+            }
+            setRem();
+            window.onresize = setRem;
+        }
+    </script>
+</head>
+<body>
+<div class="header">
+    <div><img src="./image/index/logo.jpg" alt=""></div>
+    <div><img src="./image/index/my.jpg" alt=""></div>
+    <div><img src="./image/index/xiazai.jpg" alt=""></div>
+</div>
+
+
+
+
+<div class="foot">
+    <div class="footnav">
+        <p>北京找房无忧>首页</p>
+    </div>
+    <div class="copyright">
+        <div class="edition">
+            <div><img src="./image/index/apple.png" alt="">
+                <p>iPhone客户端</p>
+            </div>
+            <div><img src="./image/index/android.png" alt="">
+                <p>Android客户端</p>
+            </div>
+        </div>
+        <div><p> 北京找房无忧房地产经纪公司 </p>
+            <p> 网络经营许可证京ICP备20160812号</p>
+        </div>
+    </div>
+</div>
+</body>
+
+</html>

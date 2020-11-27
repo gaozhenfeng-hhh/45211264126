@@ -1,0 +1,194 @@
+/* search list page */
+/* search */
+html,body{
+    background-color: gray;
+}
+.search{
+    background-color: white;
+    height: 140.625rem;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search>input{
+    border-radius: 9rem;
+    border-color: #9A9A9A;
+    width: 690rem;
+    height: 85rem;
+}
+.search>label{
+    display: block;
+    width: 100rem;
+    height: 50rem;
+    background: url(../image/SecondHandList/search_03.png) no-repeat 10rem -5rem;
+    background-size: contain;
+    position: absolute;
+    right: 7rem;
+}
+/* nav lis */
+nav{
+    height: 98.4375rem;
+    background-color: white;
+    border-top: 1rem solid gray;
+    position: relative;
+}
+nav>ul{
+    height: 100%;
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+nav>ul>li{
+    flex: 1;
+    text-align: center;
+    font-weight: 555;
+    font-size: 35rem;
+}
+nav>ul>li>i{
+    margin-left: 15rem;
+    display: inline-block;
+    border-top: 10rem solid slategrey;
+    border-bottom: 10rem solid transparent;
+    border-left: 10rem solid transparent;
+    border-right: 10rem solid transparent;
+}
+nav>ul>li.ZCact{
+ color: #ff8a00;
+}
+nav>ul>li>i.ZCact{
+    margin-left: 15rem;
+    display: inline-block;
+    border-top: 10rem solid transparent;
+    border-bottom: 10rem solid #ff8a00;
+    border-left: 10rem solid transparent;
+    border-right: 10rem solid transparent;
+}
+/* 区域 */
+.menban{
+    background-color: rgba(60, 60, 60, 0.8);
+    height:1100rem;
+}
+.ZClisbox{
+    width: 750rem;
+    position: absolute;
+    background-color: white;
+    display: flex;
+    
+}
+.ZClisbox>div:nth-child(1){
+    font-weight: 555;
+    font-size: 35rem;
+    text-align: center;
+    width: 159.375rem;
+    line-height: 65rem;
+    background-color: #cccc;
+    border-right: 1rem solid grey ;
+}
+.ZClisbox>div:nth-child(1)>p.ZCacti{
+    background-color: white;
+    width: 165rem;
+    color: #ff8a00;
+}
+
+.ZClisbox>div:nth-child(2){
+    flex: 3;
+}
+.ZClisbox>div:nth-child(2)>ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+.ZClisbox>div:nth-child(2)>ul>li{
+    width: 50%;
+    line-height: 65rem;
+    text-align: center;
+}
+/* 价格 */
+.ZCpre{
+    background-color: white;
+}
+.ZCpre>li{
+    width: 90%;
+    margin: 0px auto;
+    border-bottom: 1rem solid grey;
+
+}
+.ZCpre>li:last-child{
+    border: none;
+}
+.ZCpre>li>a{
+    font-size: 40rem;
+    color: gray;
+    line-height: 120rem;
+}
+/* 房型 */
+.ZCfangxing{
+    background-color: white;
+}
+.ZCfangxing>li{
+    width: 90%;
+    margin: 0px auto;
+    border-bottom: 1rem solid grey;
+
+}
+.ZCfangxing>li:last-child{
+    border: none;
+}
+.ZCfangxing>li{
+    font-size: 40rem;
+    color: gray;
+    line-height: 120rem;
+}
+.ZCfangxing>li>input{
+    margin-top: 46rem;
+    margin-right: 50rem;
+    float: right;
+}
+.ZCfangxing>li:last-child>button{
+    border: none;
+    color: white;
+    background-color: red;
+    width: 540rem;
+    height: 80rem;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+/* 更多 */
+.ZCgengduo{
+    background-color: white;
+}
+.ZCgengduo>li{
+    width: 90%;
+    margin: 0px auto;
+    border-bottom: 1rem solid grey;
+    line-height: 120rem;
+
+}
+.ZCgengduo>li:last-child{
+    border: none;
+}
+.ZCgengduo>li>h1{
+    font-size: 45rem;
+}
+.ZCgengduo>li>ul{
+    display: flex;
+    flex-wrap: wrap;
+} 
+.ZCgengduo>li>ul>li{
+    width: 22%;
+    text-align: center;
+    line-height: 60rem;
+    font-size: 35rem;
+    border: 1rem solid gray;
+    box-sizing: border-box;
+    margin: 10rem;
+}
+
+
+
+
+
+
+
+
+

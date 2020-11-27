@@ -243,3 +243,57 @@
 .hot ul li:nth-of-type(2) p:nth-of-type(3) span{
     color:black;
 }
+.navBar {
+    width: 100%;
+    height: 300px;
+    background: url("../img/css/img/original.jpg") no-repeat -257px 0px;
+    position: relative;
+  }
+  .navBar div.navHot {
+    position: absolute;
+    top: 50px;
+    left: 893px;
+    color: aliceblue;
+  }
+  .navBar div.navHot h1 {
+    font-size: 25px;
+  }
+  .navBar div.navHot p {
+    font-size: 16px;
+    margin: 10px;
+  }
+  .navBar div.navHot p span {
+    display: inline-block;
+    padding: 0px 5px;
+    border-radius: 3px;
+    margin: 5px;
+    height: 25px;
+    line-height: 25px;
+    font-size: 16px;
+    background-color: #F7CF99;
+  }
+  .navBar div.navHot p:last-of-type {
+    margin-left: 55px;
+    width: 140px ;
+    background-color: #FE5341;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+  }
+  div.navHot {
+    animation: info 1s ease both;
+  }
+  @keyframes info {
+    from {
+      opacity: 0;
+      transform: translate(200px, -200px);
+    }
+    to {
+      opacity: 1;
+      transform: translate(0px, 30px);
+    }
+  }
+
+
+
+

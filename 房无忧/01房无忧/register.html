@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/register.css">
+    <script src=""></script>
+    <script>
+        window.onload = function () {
+            function setRem() {
+                var ui_w = 320;
+                var c_w = document.documentElement.clientWidth || document.body.clientWidth;
+                document.getElementsByTagName('html')[0].style.fontSize = (c_w / ui_w) + 'px';
+            }
+            setRem();
+            window.onresize = setRem;
+        }
+    </script>
+</head>
+<body>
+<div class="top">
+    <ul>
+        <li><img src="./image/public/urse.png" alt="">我的</li>
+        <li><img src="./image/public/down.png" alt="">下载</li>
+    </ul>
+    <div>
+        <div><img src="./image/public/urse2.png" alt=""></div>
+        <div>登录</div>
+    </div>
+</div>
+<ul class="menulist">
+    <li><img src="./image/public/icon1.png" alt=""><p>我关注的房源</p></li>
+    <li><img src="./image/public/icon2.png" alt=""><p>我关注的小区</p></li>
+    <li><img src="./image/public/icon3.png" alt=""><p>我关注的新房</p></li>
+    <li><img src="./image/public/icon4.png" alt=""><p>我的看房记录</p></li>
+</ul>
+</body>
+</html>
